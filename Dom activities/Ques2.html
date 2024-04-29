@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second</title>
+</head>
+<body>
+    
+        <button id="box">Add Hello</button>
+        <div id="container">
+        
+    </div>
+    <script>
+let box = document.getElementById("box")
+let header = document.getElementById("container")
+box.addEventListener('click',function(){
+    let newHead=document.createElement('h1');
+    newHead.textContent="Hello";
+    container.appendChild(newHead);
+
+});
+ 
+    </script>
+</body>
+</html>
